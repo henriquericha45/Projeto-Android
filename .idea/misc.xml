@@ -5,12 +5,19 @@
       <map>
         <entry key="..\:/Users/henri/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/drawable/cinza.xml" value="0.211" />
-        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.12182061579651941" />
+        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1421875" />
+        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/activity_cadastro.xml" value="0.155622060709705" />
+        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/activity_inicial.xml" value="0.2" />
+        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/activity_login.xml" value="0.43776824034334766" />
+        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/cadastro.xml" value="0.2" />
-        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/cadastro_form.xml" value="0.1671654553227875" />
-        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/conta.xml" value="0.152" />
+        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/cadastro_form.xml" value="0.4" />
+        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/conta.xml" value="0.2" />
         <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/endereco.xml" value="0.1671654553227875" />
-        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/principal.xml" value="0.264" />
+        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/principal.xml" value="0.2" />
+        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/telaInicial.xml" value="0.264" />
+        <entry key="..\:/Users/henri/OneDrive/Documentos/Projeto-Android/app/src/main/res/layout/tela_inicial.xml" value="0.1" />
       </map>
     </option>
   </component>
