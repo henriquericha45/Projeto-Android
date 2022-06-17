@@ -10,18 +10,19 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:text="Esqueceu a Senha?"
         android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.067" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="52dp"
         android:onClick="startcadastroActivity"
         android:text="Não tem uma conta?  Criar"
         android:textSize="14sp"
@@ -32,8 +33,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="269dp"
-        android:layout_height="69dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="Login"
         android:textAlignment="center"
@@ -48,7 +49,7 @@
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/textInputEditText"
         android:layout_width="351dp"
-        android:layout_height="61dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:hint="Usuário"
         android:textColor="#000000"
@@ -60,7 +61,7 @@
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editText"
         android:layout_width="348dp"
-        android:layout_height="56dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:hint="Senha"
         android:textColor="#000000"
@@ -72,10 +73,11 @@
     <Button
         android:id="@+id/button"
         android:layout_width="372dp"
-        android:layout_height="71dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
         android:background="#000000"
         android:text="Logar"
+        android:onClick="startprincipalActivity"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
@@ -90,6 +92,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/richao_piscina" />
+        app:srcCompat="@drawable/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,10 +9,10 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="269dp"
-        android:layout_height="69dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="Cadastre-se"
         android:onClick="activity_main"
+        android:text="Cadastre-se"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="48sp"
@@ -24,18 +24,21 @@
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/textInputEditText"
         android:layout_width="351dp"
-        android:layout_height="61dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:hint="Usuário"
         android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.003" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editText"
         android:layout_width="348dp"
-        android:layout_height="56dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:hint="E-mail"
@@ -49,7 +52,7 @@
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editText3"
         android:layout_width="348dp"
-        android:layout_height="56dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:hint="Senha"
         android:textColor="#000000"
@@ -61,7 +64,7 @@
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/editText4"
         android:layout_width="348dp"
-        android:layout_height="56dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:hint="Confirmar Senha"
         android:textColor="#000000"
@@ -73,15 +76,14 @@
     <Button
         android:id="@+id/button"
         android:layout_width="372dp"
-        android:layout_height="71dp"
-        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:background="#000000"
+        android:onClick="startprincipalActivity"
         android:text="Cadastrar"
-        android:onClick="startloginActivity"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
@@ -93,30 +95,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/richao_piscina" />
+        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="222dp"
-        android:layout_height="39dp"
-        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
         android:text="Ao criar uma conta, você concorda com nossos Termos"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="52dp"
-        android:text="Já tem uma conta?  Entrar"
         android:onClick="startloginActivity"
+        android:text="Já tem uma conta?  Entrar"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.13" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

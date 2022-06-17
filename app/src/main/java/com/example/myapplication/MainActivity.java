@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_inicial);
     }
     public void startmainActivity (View view) {
         Intent mainActivity = new Intent(this, MainActivity.class);
@@ -38,13 +38,15 @@ public class MainActivity extends AppCompatActivity {
         startActivity(principalActivity);
     }
 
-    public void startcontaActivity (View view) {
-        Intent contaActivity = new Intent(this, contaActivity.class);
-        startActivity(contaActivity);
-    }
+
 
     public void startenderecoActivity (View view) {
         Intent enderecoActivity = new Intent(this, enderecoActivity.class);
         startActivity(enderecoActivity);
+    }
+
+    public void startrotasActivity (View view) {
+        Intent rotasActivity = new Intent(this, rotasActivity.class);
+        startActivity(rotasActivity);
     }
 }
